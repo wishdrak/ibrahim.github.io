@@ -2,19 +2,69 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>وش دراك؟ | Support</title>
+    <title>وش دراك؟ | دعم العملاء</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* التنسيقات العامة */
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a; /* خلفية داكنة (مثل لون التطبيق) */
+            color: #ffffff; /* لون النص أبيض */
+            direction: rtl; /* اتجاه النص من اليمين لليسار */
+            line-height: 1.6;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 12px;
+            background-color: #2a2a2a; /* حاوية داخلية داكنة */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        /* تنسيق العناوين */
+        h1 {
+            color: #FF8C42; /* اللون البرتقالي الأساسي للعبة */
+            border-bottom: 2px solid #E67A32;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #ffffff;
+            margin-top: 30px;
+        }
+        /* تنسيق رابط البريد الإلكتروني */
+        .email-link {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #F0C38E; /* لون ذهبي/فاتح */
+            text-decoration: none; /* إزالة الخط تحت الرابط */
+            display: block; /* جعل الرابط في سطر مستقل */
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #3a3a3a;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .email-link:hover {
+            background-color: #555;
+        }
+        .response-time {
+            color: #FF8C42;
+            font-style: italic;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<body dir="rtl" style="font-family: Arial, sans-serif; text-align: center; padding: 50px;">
-    <h1>دعم لعبة وش دراك؟</h1>
-    <p>مرحباً بك! نحن هنا لمساعدتك في أي استفسارات أو مشاكل فنية تتعلق باللعبة.</p>
-    <h2>للتواصل والدعم الفني:</h2>
-    <p style="font-size: 1.2em; font-weight: bold;">
-        البريد الإلكتروني للدعم:
-    </p>
-    <p style="font-size: 1.5em; color: #FF8C42;">
-        <a href="mailto:wishdrak@gmail.com">wishdrak@gmail.com</a>
-    </p>
-    <p>نحن نعمل على الرد على جميع الرسائل خلال 24-48 ساعة.</p>
+<body>
+    <div class="container">
+        <h1>دعم لعبة وش دراك؟</h1>
+        <p>مرحباً بك! نحن هنا لمساعدتك في أي استفسارات أو مشاكل فنية تتعلق باللعبة.</p>
+        <h2>للتواصل والدعم الفني:</h2>
+        <p>البريد الإلكتروني للدعم:</p>
+        <a class="email-link" href="mailto:wishdrak@gmail.com">wishdrak@gmail.com</a>
+        <p class="response-time">نحن نعمل على الرد على جميع الرسائل خلال 24-48 ساعة.</p>
+    </div>
 </body>
 </html>
